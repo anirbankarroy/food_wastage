@@ -49,7 +49,7 @@ st.bar_chart(type_contrib)
 # ---------------------------
 st.header("3️⃣ Provider Contact Info by City")
 selected_city = st.selectbox("Select City", sorted(providers["City"].unique()))
-st.dataframe(providers[providers["City"] == selected_city][["Name", "Contact", "Email"]])
+st.dataframe(providers[providers["City"] == selected_city][["Name", "Contact", "Address"]])
 
 # ---------------------------
 # Question 4: Receivers with most food claimed
