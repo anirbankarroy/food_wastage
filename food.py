@@ -24,7 +24,6 @@ claims["Quantity"] = claims["Food_ID"].map(
 # Dashboard title
 # ---------------------------
 st.title("Local Food Wastage Management System")
-st.markdown("Interactive analytics for Providers, Receivers, Listings & Claims")
 
 # ---------------------------
 # Question 1: Providers & Receivers per city
